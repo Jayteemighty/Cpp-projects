@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int main(){
     // cout << (insertion operator)
@@ -10,6 +11,8 @@ int main(){
 
     std::cout << "What is your name?: ";
     std::cin >> name;
+    
+    std::cin.ignore();
 
     std::cout << "What is your full name?: ";
     std::getline(std::cin, fullname);
