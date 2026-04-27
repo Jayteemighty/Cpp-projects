@@ -1,1 +1,1 @@
-std::cin.ignore();
+std::cout << i << '\n';
