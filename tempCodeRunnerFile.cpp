@@ -1,1 +1,1 @@
-std::cout << i << '\n';
+std::cout << students[i] << '\n';
