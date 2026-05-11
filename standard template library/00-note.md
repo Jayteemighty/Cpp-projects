@@ -27,3 +27,11 @@ Its size can grow and shrink dynamically, and no need to provide size at compile
 ELEMENT ACCESS = at(), [], front(), back(), data()
 
 MODIFIERS = insert(), emplace(), push_back(), emplace_back(), pop_back(), resize(), swap(), erase(), clear()
+
+4. Map in C++ STL
+Maps are associative containers that store key–value pairs in sorted order using a self-balancing Red-Black Tree. They provide efficient O(log n) time complexity for insertion, deletion, and searching operations.
+
+Maps do not allow duplicate keys.
+They support ordered traversal and functions like upper_bound() and lower_bound().
+
+map<keytype1, valuetype2> mapName;
