@@ -5,7 +5,7 @@ Finish project
 
 ## 🟢 STL (Standard Template Library)
 
-* [ ] `std::vector`
+* [x] `std::vector`
 * [ ] `std::pair`
 * [ ] `std::map`
 * [ ] `std::unordered_map`
