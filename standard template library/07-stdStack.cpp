@@ -29,5 +29,14 @@ int main(){
     cout << "Size is: " << st.size() << endl; // check no of elements in stack
     cout << "Top element is: " << st.top() << endl; // check top element
 
+    // Create a copy
+    stack<int> temp(st);
+
+    while (!temp.empty())
+    {
+        cout << temp.top() << " ";
+        temp.pop();
+    }
+
     return 0;
 }

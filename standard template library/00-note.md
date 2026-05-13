@@ -41,4 +41,12 @@ map<keytype1, valuetype2> mapName;
 6. SET
 
 7. STACK
-it is a last in first out container (LIFO).
+it is a last in first out container (LIFO). 
+Pseudo Traversal = 
+A stack cannot be directly traversed, but by creating a copy and repeatedly accessing and popping the top element, we can traverse it without modifying the original stack.
+
+8. QUEUE
+is a container adaptor that follows the FIFO (First-In, First-Out) principle.
+Pseudo Traversal =
+Since only the front and back element can be accessed in a queue, we cannot directly traverse it.
+On the other hand, we can create a copy of the queue, access the front element, and then delete it, and continue this process until the copied queue is empty. This way, we can effectively traverse all the elements of the queue.

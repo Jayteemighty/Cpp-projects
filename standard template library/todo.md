@@ -12,7 +12,7 @@ Finish project
 * [x] `std::set`
 * [x] `std::unordered_set`
 * [x] `std::stack`
-* [ ] `std::queue`
+* [x] `std::queue`
 * [ ] `std::deque`
 * [ ] Iterators
 * [ ] STL algorithms (`sort`, `find`, `count`, etc.)
