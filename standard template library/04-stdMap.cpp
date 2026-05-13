@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <string>
 
 using namespace std;
 
@@ -10,6 +11,9 @@ int main(){
     myDictionary.insert(pair<string,string>("banana", "die Banane"));
     myDictionary.insert(pair<string, string>("orange", "die Orange, die Apfelsine"));
     myDictionary.insert(pair<string,string>("strawberry", "die Erdeere"));
+
+    myDictionary["Cherry"] = "zAgbalumo";
+    myDictionary.clear(); // delete myDictionary
 
     for (auto pair: myDictionary){
         cout << pair.first << " - " << pair.second << '\n';
