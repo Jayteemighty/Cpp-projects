@@ -9,8 +9,8 @@ Finish project
 * [x] `std::pair`
 * [x] `std::map`
 * [x] `std::unordered_map`
-* [ ] `std::set`
-* [ ] `std::unordered_set`
+* [x] `std::set`
+* [x] `std::unordered_set`
 * [ ] `std::stack`
 * [ ] `std::queue`
 * [ ] `std::deque`
