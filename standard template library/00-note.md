@@ -35,3 +35,6 @@ Maps do not allow duplicate keys.
 They support ordered traversal and functions like upper_bound() and lower_bound().
 
 map<keytype1, valuetype2> mapName;
+
+5. Unordered_map STL
+

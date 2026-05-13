@@ -13,7 +13,8 @@ int main(){
     myDictionary.insert(pair<string,string>("strawberry", "die Erdeere"));
 
     myDictionary["Cherry"] = "zAgbalumo";
-    myDictionary.clear(); // delete myDictionary
+    cout << myDictionary.size() <<  '\n';
+    //myDictionary.clear(); // delete myDictionary
 
     for (auto pair: myDictionary){
         cout << pair.first << " - " << pair.second << '\n';

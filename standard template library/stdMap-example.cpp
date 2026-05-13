@@ -23,5 +23,11 @@ int main(){
         }
         cout << endl;
     }
+    for(map<string, list<string>>::iterator it= pokedex.begin(); it!=pokedex.end(); it++){
+        cout << (*it).first << " " <<  '\n';
+        for(auto attack: (*it).second){
+            cout << attack << ", ";
+        }
+    }
     return 0;
 }
