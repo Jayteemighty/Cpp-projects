@@ -11,7 +11,7 @@ Finish project
 * [x] `std::unordered_map`
 * [x] `std::set`
 * [x] `std::unordered_set`
-* [ ] `std::stack`
+* [x] `std::stack`
 * [ ] `std::queue`
 * [ ] `std::deque`
 * [ ] Iterators

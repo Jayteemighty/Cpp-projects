@@ -38,3 +38,7 @@ map<keytype1, valuetype2> mapName;
 
 5. Unordered_map STL
 
+6. SET
+
+7. STACK
+it is a last in first out container (LIFO).
