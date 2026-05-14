@@ -50,3 +50,6 @@ is a container adaptor that follows the FIFO (First-In, First-Out) principle.
 Pseudo Traversal =
 Since only the front and back element can be accessed in a queue, we cannot directly traverse it.
 On the other hand, we can create a copy of the queue, access the front element, and then delete it, and continue this process until the copied queue is empty. This way, we can effectively traverse all the elements of the queue.
+
+9. DEQUE
+Deque stands for Double-Ended Queue. It's a sequence container that allows you to add or remove elements efficiently from both the front and the back.
