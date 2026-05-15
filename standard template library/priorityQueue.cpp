@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    priority_queue<int, vector<int>, greater<int>> pq;
+    priority_queue<int> pq;
 
     pq.push(10);
     pq.push(2);
@@ -12,12 +12,9 @@ int main(){
     pq.push(-12);
     pq.push(20);
 
-    if(!pq.empty()){
-        cout << " " << pq.top();
+    while(!pq.empty()){
+        cout << pq.top();
         pq.pop();
-    }
-    else{
-        cout << "Empty!" ;
     }
 
     return 0;
