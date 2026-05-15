@@ -13,9 +13,9 @@ Finish project
 * [x] `std::unordered_set`
 * [x] `std::stack`
 * [x] `std::queue`
-* [ ] `std::deque`
-* [ ] Iterators
-* [ ] STL algorithms (`sort`, `find`, `count`, etc.)
+* [x] `std::deque`
+* [x] Iterators
+* [x] STL algorithms (`sort`, `find`, `count`, etc.)
 
 ---
 
