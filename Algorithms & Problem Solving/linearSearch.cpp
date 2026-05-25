@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     // This is a simple linear search algorithm 
+    // Time complexity = O(n) where n is the number of elements in the array
     
     int arr[] = {5,8,2,7,3};
 

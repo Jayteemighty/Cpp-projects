@@ -1,4 +1,5 @@
-1. Linear search
+1. LINEAR SEARCH
+Time complexity = O(n) where n is the number of elements in the array
 used to check through an array linearly. this is the process:
 - How It WorksStart at the first element (index 0).
 - Compare the current element with the target value.
