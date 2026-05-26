@@ -22,7 +22,7 @@ Finish project
 ## 🟢 Problem Solving & Algorithms
 
 * [x] Linear search
-* [ ] Binary search
+* [x] Binary search
 * [ ] Bubble sort
 * [ ] Selection sort
 * [ ] Insertion sort
