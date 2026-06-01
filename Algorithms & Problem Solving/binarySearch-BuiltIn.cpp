@@ -24,5 +24,15 @@ int main(){
     else{
         cout << "Target " << target << " was not found in the array." << '\n';
     }
+
+    // to add index of the target element, we can use lower_bound or upper_bound
+    auto it = lower_bound(arr.begin(), arr.end(), target);
+
+    if(it != arr.end() && *it == target){
+        cout << "Target " << target << " is located at index: " << it - arr.begin() << endl;
+    }
+    else{
+        cout << "Target " << target << " is not present in the array." << endl;
+    }
     return 0;
 }
