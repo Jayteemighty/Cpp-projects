@@ -19,3 +19,11 @@ How it works
 - Repeat by checking the middle of the remaining half.
 
 C++ STL provides a built-in function std::binary_search() that implements the binary search algorithm for easy and quick search on sorted data. It returns true if the element is found, false otherwise. Its behaviour is undefined if the dataset is unsorted.
+
+3. BUBBLE SORT
+Bubble Sort Algorithm is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. It is often used to introduce the concept of a sorting and is particularly suitable for sorting small datasets.
+
+- Start by comparing the first two elements. If they are in the wrong order, swap them.
+- Continue this process for all elements moving from left to right. After the first pass, the largest element will be at the end.
+- In the next pass, skip the last element since it's already sorted and repeat the above steps. The second-largest element will move to the second-last position.
+- Repeat the steps until the entire array is sorted.
