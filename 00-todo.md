@@ -23,8 +23,8 @@ Finish project
 
 * [x] Linear search
 * [x] Binary search
-* [ ] Bubble sort
-* [ ] Selection sort
+* [x] Bubble sort
+* [x] Selection sort
 * [ ] Insertion sort
 * [ ] Recursion deeply
 * [ ] Time complexity (Big O)
