@@ -27,3 +27,10 @@ Bubble Sort Algorithm is the simplest sorting algorithm that works by repeatedly
 - Continue this process for all elements moving from left to right. After the first pass, the largest element will be at the end.
 - In the next pass, skip the last element since it's already sorted and repeat the above steps. The second-largest element will move to the second-last position.
 - Repeat the steps until the entire array is sorted.
+
+4. SELECTION SORT
+Selection Sort is a comparison-based sorting algorithm. It sorts by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element.
+
+- Find the smallest element and swap it with the first element. This way we get the smallest element at its correct position.
+- Then find the smallest among remaining elements (or second smallest) and swap it with the second element.
+- We keep doing this until we get all elements moved to correct position.
