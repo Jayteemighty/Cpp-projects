@@ -10,7 +10,7 @@ enum TrafficLight{
         YELLOW,
     };
 
-void displayTrafficLight(constTrafficLight &light){
+void displayTrafficLight(const TrafficLight &light){
     switch (light){
         case RED:
             cout << "Current Light: RED\n";
@@ -27,7 +27,7 @@ void displayTrafficLight(constTrafficLight &light){
     }
 }
 
-void changeTrafficLight(constTrafficLight &light){
+void changeTrafficLight(const TrafficLight &light){
     switch (light){
         case RED:
             light = GREEN;
