@@ -63,18 +63,19 @@ class Motor{
 };
 
 void displayMenu(){
-    cout << "=============================";
-    cout << "MOTOR CONTROL SYSTEM";
-    cout << "=============================";
-    cout << "1. Start Motor";
-    cout << "2. Stop Motor";
-    cout << "3. Increase Speed";
-    cout << "4. Decrease Speed";
-    cout << "5. Change Direction";
-    cout << "6. Emergency Stop";
-    cout << "7. Show Status";
-    cout << "8. Exit";
-    cout << "";  
+    cout << "=============================\n";
+    cout << "MOTOR CONTROL SYSTEM\n";
+    cout << "=============================\n";
+    cout << "1. Start Motor\n";
+    cout << "2. Stop Motor\n";
+    cout << "3. Increase Speed\n";
+    cout << "4. Decrease Speed\n";
+    cout << "5. Change Direction\n";
+    cout << "6. Emergency Stop\n";
+    cout << "7. Show Status\n";
+    cout << "8. Exit\n";
+    cout << "=============================\n";
+    cout << "Enter your choice: "; 
 }
 
 int main(){
