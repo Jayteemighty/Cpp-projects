@@ -7,7 +7,7 @@ output is std::cout << whatever ;
 
 comment code using // 
 /*
-    This is also a comment in cpp
+    This is also a comment in c++
 */
 
 VARIABLES:
